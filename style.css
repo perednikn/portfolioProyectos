@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}
+
+body{
+    background-color: #ededed;
+
+}
+
+.home{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.in-flex{
+    flex: 1;
+    min-width: 250px;
+}
+
+.in-flex:first-child{
+    flex: 2;
+    background-color: #fff;
+    padding: 25px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.in-flex div{
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+}
+.otraColumna{
+    flex: 1;
+    margin-bottom: 20px;
+    height: 200px;
+}
+
+.cabecera{
+    background-color: black;
+    width: auto;
+    font-family: 'Rock Salt', cursive;  
+    color: whitesmoke;
+    text-align: center;
+    height: 550px; /* Medida para que ocupe toda la pantalla al iniciar */
+    padding-top: 20px;
+    margin-top: 50px;
+  
+}
+
+.introduccion{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.introduccion div{
+    flex: 1;
+    align-self: center;
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 60px;
+    min-width: 250px;
+
+}
+
+.introduccion img{
+    flex: 1;
+    max-width: 400px;
+    max-height: 400px;
+    margin-right: 45px;
+    min-width: 250px;
+}
+
+.botonesDerecha{
+    align-self: right;
+}
+
+
+.flexProyectos{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.proyectoHTML{
+    flex: 1;
+    background-color: black;
+    border-style: dotted;
+    text-align: center;
+}
+.proyectoHTML:hover{
+    
+    box-shadow: 2px 2px 5px #999;
+        }
+.proyectoJS{
+    flex: 1; 
+    border-style: dotted;
+    text-align: center;
+}
+
+.proyectoJS:hover{
+    
+  box-shadow: 2px 2px 5px #999;
+      }
+
+.proyecto3{
+    flex: 1;
+}
+
+.imagenProyecto{
+    max-height: 100px;
+}
+.skillsProyecto{
+    justify-content: center;
+}
+.skillsProyecto img{
+   width: 50px;
+   height: 50px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.misSkills{
+    height: 500px;
+}
+
+.skillsPropias{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgSkill{
+    flex: 1;
+    height: 90px;
+    width: 90px;
+}
+#skillMaterialize{
+    height: 25px;
+}
+.skillAngosto{
+    height: 45px;
+    align-self: center;
+}
